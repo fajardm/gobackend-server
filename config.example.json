@@ -1,0 +1,27 @@
+{
+    "app": {
+        "name": "GoBackendService",
+        "version": "0.1",
+        "env": "development",
+        "address":"localhost:3000",
+        "timeout":"15s"
+    },
+    "database": {
+        "type": "postgres",
+        "sql": {
+            "database": "gobackend",
+            "host": "localhost",
+            "port": 5432,
+            "username": "root",
+            "password": "secret",
+            "maxConnection": 3
+        }
+    },
+    "logger": {
+        "level": "debug"
+    },
+    "redis": {
+        "addresses": ["localhost:6379"],
+        "password": ""
+    }
+}
